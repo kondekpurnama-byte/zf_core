@@ -423,3 +423,4 @@ if __name__ == "__main__":
                 
         except KeyboardInterrupt: print("\n\n⚠️ Sistem dimatikan oleh Arsitek."); break
         except Exception as e: print(f"\n\n❌ ERROR TERDETEKSI: {e}"); time.sleep(10)
+ 
