@@ -7,9 +7,8 @@ import math
 # ==============================================================================
 # 1. KONFIGURASI SISTEM & MEMORI (V30.2 - ULTIMATE EDITION)
 # ==============================================================================
-TELEGRAM_TOKEN = "8896842450:AAFUjx_KneJ9NSsPHbjP_ogrGIQ1SRp_gSg"
-TELEGRAM_CHAT_ID = "8800288482"
-
+TELEGRAM_TOKEN =os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_CHAT_ID =os.getenv("CHAT_ID")
 API_KEYS = [
     "82047e22427041a0a8ce3441809a4935",  
     "82047e22427041a0a8ce3441809a4935",  
