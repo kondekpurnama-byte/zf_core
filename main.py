@@ -417,7 +417,7 @@ if __name__ == "__main__":
     while True:
         try:
             analisa_pasar()
-            for sisa in range(5 if GAMMA_STATE == "ARMED" else 30, 0, -1):
+            for sisa in range(5 if GAMMA_STATE == "ARMED" else 30,-1 , -1):
                 print(f"\r ⏳ Radar berputar dalam: {sisa:02d} detik...   ", end="", flush=True); time.sleep(1)
                 
         except KeyboardInterrupt: print("\n\n⚠️ Sistem dimatikan oleh Arsitek."); break
